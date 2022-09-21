@@ -1,0 +1,70 @@
+body {
+    background-color: #fff !important;
+}
+
+/* Center the loader */
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #fff !important;
+    color: black;
+    margin: -76px 0 0 -76px;
+    border: 1px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 1px solid grey;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#myDiv {
+    display: none;
+}
+a {
+    cursor: pointer;
+    color: green !important;
+}
+
+a:hover {
+    cursor: pointer !important;
+    color: #ffd105 !important;
+}
+
+.llp {
+    font-size: 20px !important;
+    color: aqua !important;
+}
+
+.llp:hover {
+    color: bisque !important;
+}
+
+.active {
+    color: bisque !important;
+}
